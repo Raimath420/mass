@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 
 const Slider = () => {
   const images = [
-    "https://res.cloudinary.com/ddkfbtxsp/image/upload/q_auto/v1744453651/DSC04592_u3jvgw.jpg",
+    
     "https://res.cloudinary.com/ddkfbtxsp/image/upload/q_auto/v1744469242/DSC04808_cugwoy.webp",
-    "https://res.cloudinary.com/ddkfbtxsp/image/upload/q_auto/v1744469278/DSC05390_wh308q.webp"
+    "https://res.cloudinary.com/ddkfbtxsp/image/upload/q_auto/v1744469278/DSC05390_wh308q.webp",
+    "https://res.cloudinary.com/ddkfbtxsp/image/upload/q_auto/v1744469247/DSC04592_gqcca8.webp"
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
